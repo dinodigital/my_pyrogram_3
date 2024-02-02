@@ -3,8 +3,8 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, CallbackQuery
 
 from data.models import User
-from handlers import txt
-from helpers.markup import easy_inline_markup
+from tg_bot.handlers import txt
+from tg_bot.helpers.markup import easy_inline_markup
 
 
 
